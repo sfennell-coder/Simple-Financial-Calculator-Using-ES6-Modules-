@@ -3,5 +3,5 @@
 // Interest rate Module
 
 export function calcInterestRate(principal, rate, time){
-    return(principal * rate * time);
+    return(principal * (rate/100) * time);
 }
